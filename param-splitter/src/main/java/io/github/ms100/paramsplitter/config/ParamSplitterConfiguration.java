@@ -14,7 +14,6 @@ import org.springframework.aop.PointcutAdvisor;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportAware;
 import org.springframework.context.annotation.Role;
 import org.springframework.core.annotation.AnnotationAttributes;
@@ -27,7 +26,6 @@ import java.util.List;
  * @author zhumengshuai
  */
 @Role(BeanDefinition.ROLE_INFRASTRUCTURE)
-@ComponentScan("io.github.ms100.paramsplitter")
 public class ParamSplitterConfiguration implements ImportAware {
 
     @Nullable
