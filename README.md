@@ -1,13 +1,17 @@
 # ParamSplitter
 
+[In English](./README-EN.md)
+
 ## 安装
+
 ### Maven
+
 ```xml
 
 <dependency>
-  <groupId>io.github.ms100</groupId>
-  <artifactId>param-splitter</artifactId>
-  <version>1.0.0</version>
+	<groupId>io.github.ms100</groupId>
+	<artifactId>param-splitter</artifactId>
+	<version>1.0.0</version>
 </dependency>
 ```
 
